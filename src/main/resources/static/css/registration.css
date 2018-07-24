@@ -1,0 +1,11 @@
+.btn-block1 {
+	background: #00695C;
+	display: block;
+	width: 74% !important;
+}
+
+.btn-warning1 {
+	color: #fff;
+	background-color: #00695C;
+	border-color: #00695C;
+}

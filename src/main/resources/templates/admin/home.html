@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Spring Security home</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/login.css}" />
+<link rel="stylesheet" type="text/css" th:href="@{/css/global.css}" />
+<link rel="stylesheet"	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="canonical" href="https://techterms.com/definition/home_page">
+<meta name="description" content="The definition of Home Page defined and explained in simple language.">
+<meta name="keywords"	content="Home Page, definition, home, main, index.html, starting point, website, webpage, web server, root directory">
+<meta name="robots" content="all">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-itunes-app"	content="app-id=923672016, affiliate-data=11l68F">
+<meta charset="utf-8">
+<link rel="stylesheet"	href="//fonts.googleapis.com/css?family=Open+Sans:400,600">
+<link rel="stylesheet" href="//cdn.techterms.com/css/tt.css"	media="screen, print">
+</head>
+<body class="class-body-geral">
+	<div id="full">
+		<header>
+			<div id="content">
+				<a href="/admin/home" class="principal"></a>
+				<form th:action="@{/search}" method="post" id="search">
+					<div id="swrap">
+						<input type="text" name="term" id="term" tabindex="1"
+							placeholder="Buscar">
+					</div>
+				</form>
+				<nav>
+					<ul id="menu">
+						<li><a href="/help/">Ajuda</a></li>
+						<li><a href="/logout">Sair</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+</body>
+
+</html>

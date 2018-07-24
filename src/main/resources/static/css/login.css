@@ -1,0 +1,17 @@
+.img-responsive center-block{
+	 margin: 0 auto;
+}
+
+.btn-block1{
+	background: #00695C;
+	display: block;    
+    margin-left: 12%;
+    margin-top: -9%;
+    width: 19% !important;
+}
+.btn-warning1{
+	
+	color: #fff;
+    background-color: #00695C;
+    border-color: #00695C;
+}

@@ -1,0 +1,17 @@
+    
+.class-body-geral{
+    background-color: #ffffff;	
+}
+
+.principal{
+	
+	background: url(../img/logo/logoTipo.png)  no-repeat;
+	display: inline-block;
+    width: 155px;
+    height: 50px;
+    background-size: 155px 50px;
+    margin: 0 5px 0 15px;
+    margin-left: -15%;
+}
+
+    
