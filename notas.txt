@@ -1,0 +1,6 @@
+
+docker run --name mysql --network host -e MYSQL_ROOT_PASSWORD=6559279bb#2 -v /var/lib/mysql:/var/lib/mysql -d mysql:latest --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+
+
+executar client do mysql(so para consulta):
+mysql  -h localhost -P 3306 --protocol=tcp  -u root -p
